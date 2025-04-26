@@ -6,8 +6,11 @@ import os
 import random
 
 # Import the API key
-from geoapify_config import GEOAPIFY_API_KEY
-from openweathermap_config import OPENWEATHER_API_KEY
+# from geoapify_config import GEOAPIFY_API_KEY
+# from openweathermap_config import OPENWEATHER_API_KEY
+
+GEOAPIFY_API_KEY = st.secrets["GEOAPIFY_API_KEY"]
+OPENWEATHER_API_KEY = st.secrets["OPENWEATHER_API_KEY"]
 
 # API keys from environment variables
 # OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
